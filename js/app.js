@@ -2,7 +2,7 @@ let addButton = document.querySelector('#plus')
 let subtractButton = document.querySelector('#minus')
 let input = document.querySelector('input')
 const textResult = document.getElementById('result')
-let result = 1
+let result = 0
 
 addButton.addEventListener('click', () => {
 	result += parseInt(input.value)
