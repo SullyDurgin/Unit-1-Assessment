@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Trebuchet MS, sans-serif;
+    text-align: center;
 }
 
 html {
@@ -9,35 +10,44 @@ html {
 }
 
 body {
-  background-color: gray;
+  background-color: rgb(106, 106, 107);
     display: table-cell;
     vertical-align: middle;
-    align: center;
+   
 }
+
+#page {
+     width: 800px;
+     margin: 0 auto;
+}
+
+
 h1 {
   text-align: center;
   font-size: 80px;
+  font-weight: bold;
+  margin: 75px;
 }
 
-button {
-  background-color:white;
-  border: 5px solid rgb(74, 70, 70);
-  border-radius: 8px;
+input, button {
+  display: inline-block;
+  background-color: whitesmoke;
+  border: 5px solid rgb(56, 54, 54);
+  border-radius: 12px;
   color: rgb(74, 70, 70);
-  padding: 10px 32px;
+  padding: 12px 25px;
   text-align: center;
-  font-size: 30px;
+  font-size: 32px;
   margin: 2px 2px;
 }
 
 input {
-  
-  background-color:white;
-  border: 5px solid rgb(74, 70, 70);
-  border-radius: 8px;
-  color: rgb(74, 70, 70);
-  padding: 10px 1px;
+  width: 10%;
   text-align: center;
-  font-size: 30px;
-  margin: 2px 2px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
 }
