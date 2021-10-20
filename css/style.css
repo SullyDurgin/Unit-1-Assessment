@@ -12,6 +12,7 @@ body {
   background-color: gray;
     display: table-cell;
     vertical-align: middle;
+    align: center;
 }
 h1 {
   text-align: center;
@@ -19,7 +20,6 @@ h1 {
 }
 
 input, button {
-  display: inline-block;
   background-color:white;
   border: 5px solid rgb(74, 70, 70);
   border-radius: 8px;
@@ -29,3 +29,5 @@ input, button {
   font-size: 30px;
   margin: 2px 2px;
 }
+
+
